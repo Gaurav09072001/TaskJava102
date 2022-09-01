@@ -35,7 +35,6 @@ public static void lengthMoreThan3(List<String> names){
 				newdata.add(name);
 			}
 		}
-		
 		for(String name : newdata) {
 			System.out.print(name+" ");	  	
 		}

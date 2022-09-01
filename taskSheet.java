@@ -11,7 +11,7 @@ public class taskSheet {
 	
 	public static void print_50() {
 		for(int  i=1;i<51;i++) {
-			System.out.println(i);
+			System.out.print(i+" ");
 		}			
 	}
 //  2. write a logic to print only the unique data(i.e., remove duplicates )

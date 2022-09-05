@@ -6,7 +6,7 @@ import java.util.stream.IntStream;
 public class Assessment2 {
 	
 	public static void main(String[] args) {
-    //List of square of all distinct  number
+    		//List of square of all distinct  number
 		List<Integer> numbers = Arrays.asList(9, 10, 3, 4, 7, 3, 4);
 		List<Integer> squareNum = numbers.stream().distinct().map(x-> x*x).collect(Collectors.toList());
 		System.out.println("Square of List numbers :- "+squareNum);

@@ -36,8 +36,8 @@ public class Assesssmennt {
 		//Sorted Cities
 		
 		List<String> sortedList = cityList.stream().sorted().collect(Collectors.toList());
-		System.out.println("Original CityList: " + cityList);
-		System.out.println("Sorted CityList: " + sortedList);
+		System.out.println("Before Sort : " + cityList);
+		System.out.println("After Sort : " + sortedList);
 		
 	}
 }

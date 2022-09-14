@@ -8,15 +8,8 @@ public class Book {
 	
 	@Id
 	private String bookId;
-	
-    public Book(String bookId, String bookName, String bookDescription) {
-		super();
-		this.bookId = bookId;
-		this.bookName = bookName;
-		this.bookDescription = bookDescription;
-	}
 	private String bookName;
-    private String bookDescription;
+    	private String bookDescription;
 	public String getBookId() {
 		return bookId;
 	}
@@ -36,4 +29,10 @@ public class Book {
 		this.bookDescription = bookDescription;
 	}
 	public Book() {}
+	public Book(String bookId, String bookName, String bookDescription) {
+		super();
+		this.bookId = bookId;
+		this.bookName = bookName;
+		this.bookDescription = bookDescription;
+	}
 }
